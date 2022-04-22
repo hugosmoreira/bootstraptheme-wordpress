@@ -39,25 +39,7 @@
 
 
 
-                     <aside class="card small mb-3">
-                         <h3 class="card-header fs-5">Widget Name</h3>
-                         <ul class="list-group list-group-flush">
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark" >Item 1</a></li>
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Item 2</a></li>
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Item 3</a></li>
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Item 4</a></li>
-                         </ul>
-                     </aside>
-
-                     <aside class="card small mb-3">
-                         <h3 class="card-header fs-5">Widget Name</h3>
-                         <ul class="list-group list-group-flush">
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark" >Item 1</a></li>
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Item 2</a></li>
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Item 3</a></li>
-                             <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Item 4</a></li>
-                         </ul>
-                     </aside>
+                    
                  </div>           
 
 

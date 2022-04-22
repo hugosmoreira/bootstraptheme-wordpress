@@ -27,3 +27,13 @@ body{
 .fw-100 {
     font-weight: 600 !important;
 }
+
+.border-black {
+    border-top: 1px solid #3e3e3e !important;
+}
+
+.feature_holder img {
+    width: 55px;
+    height: auto;
+    padding-left: 10px;
+}
