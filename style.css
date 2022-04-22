@@ -1,0 +1,29 @@
+/*  
+Theme Name: Bootstrap 5 Creative Custom Theme
+Theme URI: https://HUGOSMR.com
+Author: @Hugosmr
+Author URI: https://hugosmr.com
+Description: Custom Theme for Bootsrap
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body{
+    background-color: #f8f9fa !important;
+}
+
+.navbar-brand img {
+    width: 125px !important;
+    padding: 15px;
+    height: 120px;
+}
+
+#navbarTogglerDemo02 {
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.fw-100 {
+    font-weight: 600 !important;
+}
