@@ -126,5 +126,53 @@ get_header(); ?>
     </div>
 </section>
 
+<section class="services border-top pt-4 pb-4">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="course_cat_text text-center small">
+                    <?php if ( is_active_sidebar( 'services_text' ) ) : ?>
+                        <?php dynamic_sidebar( 'services_text' ); ?>
+                    <?php endif; ?>
+                    <a data-bs-toggle="modal" data-bs-target="#signupModal" href="#" class="btn btn-sm btn-success"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg> Sign-up to Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main-content border-top pb-4 pt-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+            <div class="content-area">
+                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, ullam?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quos distinctio provident sed soluta, illo dicta vero expedita modi quam consequuntur 
+                        alias voluptate autem possimus maxime deserunt dolorum id! Libero dolores iste harum quasi autem
+                        laudantium repudiandae porro modi quod nobis. Distinctio officia sit alias laborum exercitationem 
+                        a doloremque suscipit dolorem!</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+            <?php               
+            if ( has_post_thumbnail() ) { ?>
+                <img class="img-fluid rounded" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
+            <?php }else{ ?>
+                <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/b1.jpg" alt="<?php echo get_the_title(); ?>">
+            <?php }
+
+            ?>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 
 <?php get_footer(); ?>

@@ -37,3 +37,12 @@ body{
     height: auto;
     padding-left: 10px;
 }
+
+.main-content h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.main-content img{
+    max-width: 100%;
+    height: auto;
+}
