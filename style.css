@@ -46,3 +46,17 @@ body{
     max-width: 100%;
     height: auto;
 }
+
+
+blockquote {
+    padding: 15px;
+    background-color: #e3e3e3;
+    border-left: 3px solid black;
+}
+
+pre {
+    padding: 15px;
+    background-color: #e3e3e3;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+}
